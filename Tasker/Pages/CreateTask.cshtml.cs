@@ -14,7 +14,7 @@ namespace Tasker.Pages
         [BindProperty]
         public Task NewTask { get; set; }
 
-        CreateTaskModel(ApplicationDbContext context)
+        public CreateTaskModel(ApplicationDbContext context)
         {
             _context = context;
         }
